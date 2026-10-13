@@ -1,6 +1,7 @@
 # Miscellaneous
 *.class
 *.lock
+!pubspec.lock
 *.log
 *.pyc
 *.swp
@@ -47,11 +48,8 @@ unlinked.ds
 unlinked_spec.ds
 
 # Android related
-**/android/**/gradle-wrapper.jar
 .gradle/
 **/android/captures/
-**/android/gradlew
-**/android/gradlew.bat
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
@@ -117,3 +115,38 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# ==========================================
+# KOSPOCARD - Security exclusions
+# ==========================================
+
+# Signing certificates and private keys
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pfx
+**/*.pem
+**/*.key
+**/key.properties
+
+# Environment and secret configuration
+.env
+.env.*
+!.env.example
+**/secrets.json
+**/secrets.yaml
+**/secrets.yml
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Local build configuration
+**/local.properties
+
+# IDE and generated files
+.idea/
+*.iml
+.kotlin/
+
+# Android application packages
+*.apk
+*.aab

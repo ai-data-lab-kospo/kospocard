@@ -1,0 +1,23 @@
+
+# Gradle and Android build cache
+.gradle/
+.kotlin/
+.cxx/
+captures/
+build/
+
+# Local machine configuration
+local.properties
+
+# Signing keys and credentials
+key.properties
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.pfx
+
+# Generated files
+GeneratedPluginRegistrant.java
+
+# IDE files
+*.iml
