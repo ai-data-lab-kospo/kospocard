@@ -77,16 +77,24 @@ kospocard/
 
 개발 및 빌드에는 프로젝트와 호환되는 Flutter SDK와 Android 개발 환경이 필요하며, 실제 빌드 전 의존성 및 환경 설정을 확인해 주세요.
 
-## 📦 배포 및 이용 안내
+## ## 📦 배포 및 이용 안내
 
-**소스코드와 앱 설치파일의 배포 정책은 구분됩니다.**
+KOSPOCARD는 소스코드와 Android 시험용 APK를 GitHub를 통해 공개합니다.
 
-- **소스코드:** GitHub를 통해 MIT 라이선스로 공개
-- **앱 설치파일(APK):** 본 저장소에서 공식 설치파일을 별도로 배포하지 않음
-- **사내 이용:** 회사의 모바일기기 관리체계(MDM)를 통한 희망 임직원 대상 제공 계획
-- **외부 이용:** 공개된 소스코드를 이용해 개별적으로 빌드 및 활용 가능
+- **소스코드:** MIT 라이선스로 공개
+- **Android APK:** [시험용 APK 다운로드 (GitHub Releases)](https://github.com/ai-data-lab-kospo/kospocard/releases)
+- **지원 환경:** Android 8.0 이상
+- **사내 이용:** 회사의 모바일기기 관리체계(MDM)를 통한 별도 배포
 
-본 프로젝트는 오픈소스 기술공유를 목적으로 제공되며, 공식 앱 설치파일이나 지속적인 기술지원 제공을 보장하지 않습니다.
+### ⚠️ 시험용 APK 이용 안내
+
+GitHub에서 제공하는 APK는 초기 기능 검증에 사용된 **디버그 빌드(Debug Build)**이며, 정식 배포 버전이 아닙니다.
+
+기능 확인 및 테스트 목적으로 제공되며, 안정성 및 보안 설정이 정식 배포 버전과 다를 수 있습니다.
+
+실제 개인정보 대신 테스트용 명함 데이터를 사용하시기 바랍니다.
+
+본 프로젝트는 오픈소스 기술공유를 목적으로 제공되며, 지속적인 기술지원 및 업데이트를 보장하지 않습니다.
 
 ## 📄 라이선스
 
@@ -121,7 +129,7 @@ The source code is available under the **MIT License**, allowing free use, modif
 
 The project is shared through **AI-DATA Lab in KOSPO**, a voluntary employee-led AI and data knowledge-sharing community.
 
-**Distribution:** Official APK files are not publicly distributed through this repository. Internal deployment is planned through the company's mobile device management (MDM) system.
+**Distribution:** Source code and a debug test APK are available through this repository and its [GitHub Releases](https://github.com/ai-data-lab-kospo/kospocard/releases) page. The APK is provided for testing and evaluation purposes only and is not an official production release. Internal deployment is handled separately through the company's MDM system.
 
 ---
 
